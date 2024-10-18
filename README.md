@@ -60,6 +60,3 @@ The script will load the pretrained model from `model/` and evaluate it on the `
 - Implement additional data augmentation techniques for improved generalization.
 - Experiment with different optimizers and learning rate schedules.
 - Expand the project to other datasets or tasks using similar architectures.
-
-## License
-This project is licensed under the MIT License. See `LICENSE` for more details.

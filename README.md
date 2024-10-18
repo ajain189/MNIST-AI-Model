@@ -8,8 +8,8 @@ This project classifies handwritten digits (0-9) from the MNIST dataset using a 
 │   ├── train/             # Training images
 │   ├── test/              # Testing images
 ├── model/                 # Fully trained ResNet-18 model
-├── train.py               # Script to train the model
-├── test.py                # Script to test the model on test data
+├── train_mnist.py         # Script to train the model
+├── test_mnist.py          # Script to test the model on test data
 ├── README.md              # Project documentation
 └── requirements.txt       # Python dependencies
 ```
@@ -40,14 +40,14 @@ pip install -r requirements.txt
 ### Training
 To train the model, run the following command:
 ```bash
-python train.py
+python train_mnist.py
 ```
 The training script reads the dataset from the `data/train/` directory and trains the model using the ResNet-18 architecture. The trained model will be saved in the `model/` directory.
 
 ### Testing
 To test the model's accuracy on the test dataset, run:
 ```bash
-python test.py
+python test_mnist.py
 ```
 The script will load the pretrained model from `model/` and evaluate it on the `data/test/` dataset, printing the accuracy and other evaluation metrics.
 
